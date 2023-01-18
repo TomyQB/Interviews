@@ -29,7 +29,6 @@ package array;
 public class Rotate {
 
     public static void main(String[] args) {
-        // NOTE: The following input values are used for testing your solution.
 
         int[] array1 = { 1, 2, 3, 4, 5, 6, 7 };
         int k1 = 3;
@@ -52,6 +51,7 @@ public class Rotate {
         for (int i : rotate(array3, k3)) {
             System.out.print(i);
         }
+
     }
 
     public static int[] rotate(int[] nums, int k) {

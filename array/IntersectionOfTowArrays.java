@@ -18,7 +18,6 @@ import java.util.Set;
 public class IntersectionOfTowArrays {
 
     public static void main(String[] args) {
-        // NOTE: The following input values are used for testing your solution.
 
         int[] array1A = { 1, 2, 2, 1 };
         int[] array2A = { 2, 2 };
