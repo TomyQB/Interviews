@@ -2,7 +2,6 @@ package string;
 
 import java.util.HashMap;
 import java.util.Map;
-
 /*
     Input: s = "anagram", t = "nagaram"
     Output: true
