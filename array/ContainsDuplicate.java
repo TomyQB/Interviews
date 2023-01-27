@@ -1,6 +1,7 @@
 package array;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 /*
@@ -23,13 +24,13 @@ class ContainsDuplicate {
     public static void main(String[] arrgs) {
 
         int[] arr1 = { 1, 2, 3, 1 };
-        System.out.println(containsDuplicate(arr1));
+        System.out.println(setContainsDuplicate(arr1));
 
         int[] arr2 = { 1, 2, 3, 4 };
-        System.out.println(containsDuplicate(arr2));
+        System.out.println(setContainsDuplicate(arr2));
 
         int[] arr3 = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
-        System.out.println(containsDuplicate(arr3));
+        System.out.println(setContainsDuplicate(arr3));
 
     }
 
@@ -40,6 +41,17 @@ class ContainsDuplicate {
             if (map.containsKey(nums[i]))
                 return true;
             map.put(nums[i], 1);
+
+        }
+        return false;
+    }
+
+    public static boolean setContainsDuplicate(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int i : nums) {
+            if (!set.add(i))
+                return true;
 
         }
         return false;

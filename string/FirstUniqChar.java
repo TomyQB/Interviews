@@ -42,9 +42,9 @@ public class FirstUniqChar {
     }
 
     public static int bestFirstUniqChar2(String s) {
-        HashSet<Character> seen = new HashSet<Character>();
+        HashSet<Character> set = new HashSet<Character>();
         for (char c : s.toCharArray()) {
-            if (seen.add(c)) {
+            if (set.add(c)) {
                 int index = s.indexOf(c);
                 int lastIndex = s.lastIndexOf(c);
                 if (index == lastIndex)
