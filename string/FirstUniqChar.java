@@ -21,12 +21,15 @@ public class FirstUniqChar {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         String s1 = "leetcode";
         System.out.println(myFirstUniqChar(s1));
 
+        // ------------------- 2 -------------------
         String s2 = "loveleetcode";
         System.out.println(myFirstUniqChar(s2));
 
+        // ------------------- 3 -------------------
         String s3 = "aabb";
         System.out.println(myFirstUniqChar(s3));
 

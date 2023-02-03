@@ -28,15 +28,19 @@ public class ValidPalindrome {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         String s1 = "A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(s1));
 
+        // ------------------- 2 -------------------
         String s2 = "race a car";
         System.out.println(isPalindrome(s2));
 
+        // ------------------- 3 -------------------
         String s3 = " ";
         System.out.println(isPalindrome(s3));
 
+        // ------------------- 4 -------------------
         String s4 = "0P";
         System.out.println(isPalindrome(s4));
 

@@ -18,6 +18,7 @@ public class ReverseLinkedList {
 
     public static void main(String[] args) {
 
+        // ------------------- 1 -------------------
         ListNode node11 = new ListNode(5);
         ListNode node12 = new ListNode(4, node11);
         ListNode node13 = new ListNode(3, node12);
@@ -31,6 +32,7 @@ public class ReverseLinkedList {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         ListNode node21 = new ListNode(2);
         ListNode node22 = new ListNode(1, node21);
         ListNode res2 = reverseList(node22);
@@ -41,6 +43,7 @@ public class ReverseLinkedList {
 
         System.out.println();
 
+        // ------------------- 3 -------------------
         ListNode node3 = new ListNode();
         ListNode res3 = reverseList(node3);
         while (res3 != null) {

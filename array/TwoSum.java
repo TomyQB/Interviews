@@ -23,6 +23,7 @@ public class TwoSum {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         int[] arr1 = { 2, 7, 11, 15 };
         int n1 = 9;
         for (int i : twoSum(arr1, n1)) {
@@ -31,6 +32,7 @@ public class TwoSum {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         int[] arr2 = { 3, 2, 4 };
         int n2 = 6;
         for (int i : twoSum(arr2, n2)) {
@@ -39,6 +41,7 @@ public class TwoSum {
 
         System.out.println();
 
+        // ------------------- 3 -------------------
         int[] arr3 = { 3, 3 };
         int n3 = 6;
         for (int i : twoSum(arr3, n3)) {

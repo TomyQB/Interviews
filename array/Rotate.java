@@ -30,6 +30,7 @@ public class Rotate {
 
     public static void main(String[] args) {
 
+        // ------------------- 1 -------------------
         int[] array1 = { 1, 2, 3, 4, 5, 6, 7 };
         int k1 = 3;
         for (int i : rotate(array1, k1)) {
@@ -38,6 +39,7 @@ public class Rotate {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         int[] array2 = { -1, -100, 3, 99 };
         int k2 = 2;
         for (int i : rotate(array2, k2)) {
@@ -46,6 +48,7 @@ public class Rotate {
 
         System.out.println();
 
+        // ------------------- 3 -------------------
         int[] array3 = { 1, 2 };
         int k3 = 3;
         for (int i : rotate(array3, k3)) {

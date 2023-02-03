@@ -14,6 +14,7 @@ public class FindGreaterElements {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         List<Integer> list = List.of(10, 4, 6, 3, 5);
         for (int i : listFindGreaterElements(list)) {
             System.out.print(i + " ");

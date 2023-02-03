@@ -19,6 +19,7 @@ public class IntersectionOfTowArrays {
 
     public static void main(String[] args) {
 
+        // ------------------- 1 -------------------
         int[] array1A = { 1, 2, 2, 1 };
         int[] array2A = { 2, 2 };
         for (int i : commonElements(array1A, array2A)) {
@@ -27,6 +28,7 @@ public class IntersectionOfTowArrays {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         int[] array1B = { 4, 9, 5 };
         int[] array2B = { 9, 4, 9, 8, 4 };
         for (int i : commonElements(array1B, array2B)) {

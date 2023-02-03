@@ -16,10 +16,12 @@ public class ValidAnagram {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         String s1 = "anagram";
         String t1 = "nagaram";
         System.out.println(isAnagram(s1, t1));
 
+        // ------------------- 2 -------------------
         String s2 = "rat";
         String t2 = "car";
         System.out.println(isAnagram(s2, t2));

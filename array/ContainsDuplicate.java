@@ -23,12 +23,15 @@ class ContainsDuplicate {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         int[] arr1 = { 1, 2, 3, 1 };
         System.out.println(setContainsDuplicate(arr1));
 
+        // ------------------- 2 -------------------
         int[] arr2 = { 1, 2, 3, 4 };
         System.out.println(setContainsDuplicate(arr2));
 
+        // ------------------- 3 -------------------
         int[] arr3 = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
         System.out.println(setContainsDuplicate(arr3));
 

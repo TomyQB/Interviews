@@ -22,6 +22,7 @@ public class FizzBuzz {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         int n1 = 3;
         for (String s : fizzBuzz(n1)) {
             System.out.print(s + " ");
@@ -29,6 +30,7 @@ public class FizzBuzz {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         int n2 = 5;
         for (String s : fizzBuzz(n2)) {
             System.out.print(s + " ");
@@ -36,12 +38,11 @@ public class FizzBuzz {
 
         System.out.println();
 
+        // ------------------- 3 -------------------
         int n3 = 15;
         for (String s : fizzBuzz(n3)) {
             System.out.print(s + " ");
         }
-
-        System.out.println();
 
     }
 

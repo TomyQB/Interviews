@@ -16,6 +16,7 @@ public class DeleteNodeInALinkedList {
 
     public static void main(String[] args) {
 
+        // ------------------- 1 -------------------
         ListNode node11 = new ListNode(9);
         ListNode node12 = new ListNode(1, node11);
         ListNode node13 = new ListNode(5, node12);
@@ -28,6 +29,7 @@ public class DeleteNodeInALinkedList {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         ListNode node21 = new ListNode(9);
         ListNode node22 = new ListNode(1, node21);
         ListNode node23 = new ListNode(5, node22);

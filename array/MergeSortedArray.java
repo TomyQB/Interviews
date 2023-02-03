@@ -26,6 +26,7 @@ class MergeSortedArray {
 
     public static void main(String[] arrgs) {
 
+        // ------------------- 1 -------------------
         int[] arr11 = { 1, 2, 3, 0, 0, 0 };
         int m1 = 3;
         int[] arr12 = { 2, 5, 6 };
@@ -36,6 +37,7 @@ class MergeSortedArray {
 
         System.out.println();
 
+        // ------------------- 2 -------------------
         int[] arr21 = { 1 };
         int m2 = 1;
         int[] arr22 = {};
@@ -46,6 +48,7 @@ class MergeSortedArray {
 
         System.out.println();
 
+        // ------------------- 3 -------------------
         int[] arr31 = { 0 };
         int m3 = 0;
         int[] arr32 = { 1 };
