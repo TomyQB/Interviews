@@ -12,7 +12,7 @@ import java.util.Stack;
 
 public class FindGreaterElements {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         List<Integer> list = List.of(10, 4, 6, 3, 5);

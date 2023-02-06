@@ -20,7 +20,7 @@ import java.util.List;
 
 public class FizzBuzz {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         int n1 = 3;

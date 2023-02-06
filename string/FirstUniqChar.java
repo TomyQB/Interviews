@@ -19,7 +19,7 @@ import java.util.HashSet;
 
 public class FirstUniqChar {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         String s1 = "leetcode";

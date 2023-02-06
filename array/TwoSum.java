@@ -21,7 +21,7 @@ import java.util.Map;
 
 public class TwoSum {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         int[] arr1 = { 2, 7, 11, 15 };

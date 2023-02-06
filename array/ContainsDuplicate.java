@@ -21,7 +21,7 @@ import java.util.Map;
 
 class ContainsDuplicate {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         int[] arr1 = { 1, 2, 3, 1 };

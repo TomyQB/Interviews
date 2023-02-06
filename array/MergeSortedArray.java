@@ -24,7 +24,7 @@ package array;
 
 class MergeSortedArray {
 
-    public static void main(String[] arrgs) {
+    public static void main(String[] args) {
 
         // ------------------- 1 -------------------
         int[] arr11 = { 1, 2, 3, 0, 0, 0 };
